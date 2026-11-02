@@ -1,0 +1,36 @@
+# outputs
+out/
+renders/
+preview/
+final/
+*.mp4
+*.mov
+*.mkv
+*.png
+# audio outputs (the reference clip is kept explicitly)
+*.wav
+*.mp3
+*.flac
+!voice/reference/*.wav
+!voice/reference/*.mp3
+# project and session files
+*.ecproj
+*.scraft
+Audio Files/
+# python
+.venv*/
+venv/
+__pycache__/
+*.pyc
+# storyboard intermediates
+_frames*.js
+_book.html
+_shots/
+# misc
+.env
+*.log
+.DS_Store
+
+# Voice reference audio: drop your own clip here (not distributed)
+voice/reference/*.wav
+voice/reference/*.mp3

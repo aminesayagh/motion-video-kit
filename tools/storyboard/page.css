@@ -1,0 +1,15 @@
+
+@font-face{font-family:Poppins;font-weight:400;src:url({{FONTS}}/Poppins-Regular.ttf)}
+@font-face{font-family:Poppins;font-weight:600;src:url({{FONTS}}/Poppins-SemiBold.ttf)}
+@font-face{font-family:Poppins;font-weight:700;src:url({{FONTS}}/Poppins-Bold.ttf)}
+@font-face{font-family:'JetBrains Mono';font-weight:400;src:url({{FONTS}}/JetBrainsMono-Regular.ttf)}
+@font-face{font-family:'JetBrains Mono';font-weight:600;src:url({{FONTS}}/JetBrainsMono-Bold.ttf)}
+@font-face{font-family:'JetBrains Mono';font-weight:700;src:url({{FONTS}}/JetBrainsMono-Bold.ttf)}
+@page{size:A4 landscape;margin:10mm}
+html{-webkit-print-color-adjust:exact;print-color-adjust:exact}
+body{margin:0;background:#fff;color:#2C353A;font-family:Poppins,sans-serif;font-size:10.5pt}
+header{padding:8mm 0 4mm}h1{font-size:26pt;color:#0A6E89;margin:0 0 3mm}header p{margin:0 0 2mm;max-width:230mm;line-height:1.5}
+.scene{page-break-before:always}h2{font-size:17pt;color:#0A6E89;border-top:2.2mm solid #0A6E89;padding-top:3mm;margin:0 0 4mm}
+.grid{display:grid;grid-template-columns:1fr 1fr;gap:6mm 6mm}figure{margin:0;break-inside:avoid}
+.fr{border:.3mm solid #E2E8DE;border-radius:2mm;overflow:hidden;line-height:0}.fr svg{width:100%;height:auto;display:block}
+figcaption{font-size:8.6pt;line-height:1.45;margin-top:1.6mm}figcaption b{color:#0A6E89;font-family:'JetBrains Mono',monospace;margin-right:1mm}

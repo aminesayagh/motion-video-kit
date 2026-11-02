@@ -1,0 +1,6 @@
+# Chatterbox venv (Python 3.11): tools/voice/chatterbox/gen.py only. The earlier engine, kept for its method.
+# faster-whisper could not be installed next to it offline, so the checks run in the Whisper venv (whisper.txt).
+chatterbox-tts==0.1.7
+torch==2.6.0
+numpy==1.26.4
+soundfile>=0.13

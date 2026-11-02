@@ -1,0 +1,10 @@
+# NN|project|comp  (one project per scene; the comp names of the approved builds)
+01|OrbitRows_v2_s01.ecproj|V2 S01 Introducing OrbitRows revision v11
+02|OrbitRows_v2_s02.ecproj|V2 S02 Coreference v4
+03|OrbitRows_v2_s03.ecproj|V2 S03 Split v4
+04|OrbitRows_v2_s04.ecproj|V2 S04 Action v3
+05|OrbitRows_v2_s05.ecproj|V2 S05 Matching v8
+06|OrbitRows_v2_s06.ecproj|V2 S06 Parameter v3
+07|OrbitRows_v2_s07.ecproj|V2 S07 Operation v4
+08|OrbitRows_v2_s08.ecproj|V2 S08 Assembly v4
+09|OrbitRows_v2_s09.ecproj|V2 S09 Conclusion v2

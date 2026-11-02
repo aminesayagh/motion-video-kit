@@ -1,0 +1,9 @@
+Step four: matching. Now the tool builds the body of each request, from three pieces. What it does, which rows, and how those rows are arranged. It matches them from the bottom up: first the values, then the tables, then the columns, and last, the operations.
+
+First, the values. The tool already knows your table, from when you imported it: "created" holds dates, "status" and "brand" each hold a short list of values, and "name" is free text. So it looks for each value only where it can live. "Casa" is one of the brands. "Draft" is one of the statuses. "September" is no listed value: it is a date. Each value becomes the parameter of a condition.
+
+Next, the tables. Request one works on the products table. Request two names no table: it works on the result of request one. A change always writes to one table: that is how SQLite works. But it can read others to choose its rows, like "the sales of the Casa products". You can also bring in a file, like a supplier's price list: the tool compares it with your store, and can update your store from it, add what you don't have yet, or do anything else you ask in your message. Here, products is enough.
+
+Then the columns. A grammar reader and a meaning model find the column each word names: "created" is the creation date.
+
+Last, the operations. The catalog lists six hundred and eighty-two, and sixty-five of them are production-ready today. For each change, a meaning search keeps the ten closest and offers them to Jev, and Jev picks one: here, "set a value", to archive.

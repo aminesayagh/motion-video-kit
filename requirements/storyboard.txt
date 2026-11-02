@@ -1,0 +1,3 @@
+# Storyboard tools (system python is fine): tools/storyboard/build.py and book.py
+pillow                     # real glyph widths of the panel words
+markdown                   # storybook -> PDF

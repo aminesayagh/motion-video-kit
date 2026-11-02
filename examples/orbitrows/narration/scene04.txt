@@ -1,0 +1,7 @@
+
+Step three: action. Each request needs one kind of action: show, add, change, or delete. And an action can work on two things: the records in a table, or the structure of the table itself. Jev answers once for each request.
+
+Request one changes existing rows: a change. Request two only shows. And since request one changes rows, "them" now means precisely the rows request one changed, not the rows as they were before.
+
+One more example. "Add a column for the warranty" is a change to the structure. The tool recognizes it, and then, for now, it stops and tells you that changing the structure isn't supported yet. Nothing is changed.
+

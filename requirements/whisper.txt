@@ -1,0 +1,6 @@
+# Whisper venv: tools/voice/chatterbox/stt_worker.py and drive.py (the driver runs here too).
+faster-whisper==1.2.1
+num2words==0.5.14          # "682" -> "six hundred and eighty-two", "1st" -> "first" before comparing
+numpy>=1.26
+scipy>=1.17
+soundfile>=0.13

@@ -1,0 +1,11 @@
+
+You have a table of products. You want to change some of them, and you would rather say it in plain English than write a database query. So you type this.
+
+Archive the draft Casa products created in September, and show them.
+
+For a person, this is easy. For a computer, it is full of traps. Which products are "the Casa products"? Is "draft" a status, or a word in a name? Is "September" a word, or a period of time? And what does "them" mean? Get any of these wrong, and the tool changes the wrong rows, quietly.
+
+Many AI tools ask a language model to write the query in one go, and hope it is right. This tool does it differently. It breaks your message down into six small steps: coreference, split, action, matching, parameter, and operation. Each step answers one narrow question, and each answer is checked before the next step starts.
+
+And it makes you a promise: your data stays safe. Every change is versioned, so you can undo it until you save. Every change is schema-safe: it is checked against the structure of your tables before it runs. And if any part of what you asked can't be placed, nothing runs: it stops, and tells you why.
+

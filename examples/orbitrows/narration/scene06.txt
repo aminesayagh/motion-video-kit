@@ -1,0 +1,5 @@
+
+Step five: parameter. Written numbers and dates are turned into exact values by a module of their own. "In September" becomes a whole period: from the first of September up to, but not including, the first of October.
+
+Two more examples with numbers. "Weigh more than two hundred grams" becomes the number two hundred, in grams, converted to the unit the weight column uses. And "by twenty", without a percent sign, stays a plain twenty: it is never silently taken for a percentage.
+

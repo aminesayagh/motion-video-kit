@@ -1,0 +1,7 @@
+Think of it this way. Your AI is the planner: it understands your goal and decides what to find out. OrbitRows is its hands on your data. Each request it receives is turned into exact, checked SQL.
+
+Say you ask your AI: "Prepare a new campaign; tell me what's working." The AI doesn't guess from memory. It asks OrbitRows: "show the quantity sold per product over the last ninety days"; "which products were never sold?"; "which variants have less stock than their reorder point?". Each answer comes back exact, and the AI builds the campaign on facts. When OrbitRows isn't sure what a request means, it asks, and the AI passes the question to you.
+
+The same engine can sit inside a product. Your users manage their own records by typing what they want, with the same checks: questions when unsure, changes checked against the structure, undo until they save.
+
+Let AI work with your tables.

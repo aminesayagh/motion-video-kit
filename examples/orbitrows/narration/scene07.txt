@@ -1,0 +1,7 @@
+Step six: operation. Here is a harder change: raise the Orbit variants by fifteen percent, then take five off, but for the black ones take the five off first; round to the nearest five; never above twice the cost, never below the cost plus ten percent; and leave the variants without a cost unchanged. The tool lists every part it found, each with its role: calculations, a rounding, two limits and the values they compare with, and the conditions.
+
+Every part is an operation. A condition answers true or false: "the brand is Orbit", "the variant is black". Two conditions choose the rows here, and one grouping joins them: the brand is Orbit, and the cost is not missing.
+
+Each operation takes the result of another one. "Take five off" takes the price raised by fifteen percent. "Round to five" takes the result of the choice. That's what sets the order: an operation comes after the one it takes from.
+
+Sorted, the parts form a tree. At the top, "never below the cost plus ten percent". Under it, "never above twice the cost". Under that, "round to the nearest five". Then a choice, whose question is the condition "is the variant black?". If yes: take five off, then add fifteen percent. If no: add fifteen percent, then take five off. Both paths start from the current price.

@@ -1,0 +1,5 @@
+Last, the assembly. Step six left us trees of operations: which rows, what changes, and in what order. Now the tool joins them into one structure per request, called an abstract syntax tree. It's the request written as a structure, not as text. There's nothing left to interpret.
+
+Here is request one, as the tool really holds it. At the top: an update of the products table. Under it, one assignment: the status becomes "archived". And one condition: all of these must be true. The brand equals Casa, the status equals draft, and the creation date is from the first of September, before the first of October. Every column is a node that names a real column of your table, so a column that doesn't exist can't slip through, and every value is a node of its own, so a value can never change the shape of the query.
+
+Only at the end is the tree printed as SQL. Request one becomes an update of the products with those three conditions, and it gives back the ids of the rows it changed. Request two reads exactly those ids, and shows those products.

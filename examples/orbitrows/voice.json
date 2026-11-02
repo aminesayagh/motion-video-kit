@@ -1,0 +1,34 @@
+{
+  "_comment": "Voice config of the OrbitRows video for tools/voice/qwen_takes.py. Relative paths are relative to this file.",
+  "text_dir": "narration",
+  "text_pattern": "scene{scene:02d}.txt",
+  "out_dir": "../../out/orbitrows/voice",
+  "reference_wav": "../../voice/reference/reference.wav",
+  "reference_txt": "../../voice/reference/reference.txt",
+  "model": "Qwen/Qwen3-TTS-12Hz-0.6B-Base",
+  "language": "English",
+  "whisper_model": "medium.en",
+  "max_chars": 260,
+  "max_tries": 10,
+  "pause": {"para": 0.84, "sent": 0.49, "step": 0.5},
+  "prompt": "Jev, Casa, OrbitRows, AI, SQLite, schema-safe, coreference.",
+  "spoken": {
+    "from the first of September up to": "from the first, of September, up to",
+    "created on the first of September,": "created on the first, of September,",
+    "draft and Casa and September.": "draft, and Casa, and September.",
+    "from the first of September, before the first of October.": "from the first, of September, before the first, of October.",
+    "printed as SQL.": "printed as S-Q-L.",
+    "the ids of the rows": "the I-Ds of the rows",
+    "checked SQL.": "checked S-Q-L.",
+    "OrbitRows": "Orbit Rows",
+    "touches the data, exactly.": "touches the data, exactly...",
+    "Let AI work with your tables.": "Let AI work with your tables..."
+  },
+  "break_after": [
+    "Now the tool builds the body of each request, from three pieces.",
+    "Last, the assembly."
+  ],
+  "step_regex": "Step \\w+: \\w+\\.",
+  "watch": ["in September"],
+  "watch_plain": []
+}

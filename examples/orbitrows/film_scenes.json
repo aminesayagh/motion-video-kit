@@ -1,0 +1,11 @@
+[
+  {"video": "../../out/orbitrows/1080/scene01_1080.mp4", "wav": "../../out/orbitrows/sound/scene01_master_C.wav"},
+  {"video": "../../out/orbitrows/1080/scene02_1080.mp4", "wav": "../../out/orbitrows/sound/scene02_master_C.wav"},
+  {"video": "../../out/orbitrows/1080/scene03_1080.mp4", "wav": "../../out/orbitrows/sound/scene03_master_C.wav"},
+  {"video": "../../out/orbitrows/1080/scene04_1080.mp4", "wav": "../../out/orbitrows/sound/scene04_master_C.wav"},
+  {"video": "../../out/orbitrows/1080/scene05_1080.mp4", "wav": "../../out/orbitrows/sound/scene05_master_C.wav"},
+  {"video": "../../out/orbitrows/1080/scene06_1080.mp4", "wav": "../../out/orbitrows/sound/scene06_master_C.wav"},
+  {"video": "../../out/orbitrows/1080/scene07_1080.mp4", "wav": "../../out/orbitrows/sound/scene07_master_C.wav"},
+  {"video": "../../out/orbitrows/1080/scene08_1080.mp4", "wav": "../../out/orbitrows/sound/scene08_master_C.wav"},
+  {"video": "../../out/orbitrows/1080/scene09_1080.mp4", "wav": "../../out/orbitrows/sound/scene09_master_C.wav"}
+]

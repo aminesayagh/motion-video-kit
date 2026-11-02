@@ -1,0 +1,10 @@
+# TTS venv (Python 3.12): tools/voice/qwen_takes.py, run_scene.sh, final_check.py, replace_chunk.py, qwen_quick.py
+# Install CUDA PyTorch first from https://pytorch.org/get-started/locally/ (pick the CUDA build for your driver).
+# Versions are the ones the OrbitRows video was made with.
+torch>=2.6
+qwen-tts==0.1.1
+faster-whisper==1.2.1      # checks and word alignment (CPU, int8); pulls ctranslate2
+librosa>=0.11              # pitch (pyin) for the falling-close check
+numpy>=1.26
+scipy>=1.17
+soundfile>=0.13

@@ -1,0 +1,7 @@
+# Sound venv: tools/sound/*.py (master, gates, bed, film voice/mix/gates). ffmpeg must be on PATH;
+# master.py and expander_mix.py also need soundcraft-cli.
+numpy>=1.26
+scipy>=1.17
+soundfile>=0.13
+pyloudnorm==0.2.0          # film_mix.py integrated loudness
+faster-whisper==1.2.1      # optional: the words-intact gate (G4) in docs/07-gates-catalog.md

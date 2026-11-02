@@ -1,0 +1,1 @@
+You have a table of products. You want to change some of them, and you would rather say it in plain English than write a database query. So you type this. Archive the draft Casa products created in September, then show them.

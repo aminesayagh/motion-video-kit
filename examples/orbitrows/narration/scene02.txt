@@ -1,0 +1,5 @@
+
+Two kinds of workers do the job. A System One model, called Jev, makes judgment calls: what does this word mean, which column is this about. And an algorithm does everything that must be exact: searching the table's values, building the query, checking it. When Jev is not sure enough, it doesn't guess. It stops, and asks you a question.
+
+Step one: coreference. Some words point back to other words. Here, "them". The tool finds every word that points back, and Jev answers one question for each: what does it point to? Here, "them" means "the draft Casa products created in September": the ones the first part archives. The link is saved for future decisions.
+

@@ -1,0 +1,11 @@
+
+Step two: split. Your message actually asks for two things. The tool marks where each request starts, and Jev confirms every cut. A cut is kept only when Jev is sure. The first request is "archive the draft Casa products created in September". The second is "and show them".
+
+Why so careful? Cutting one request in two by mistake would separate an action from its filter. Keeping two requests together is a smaller error: the next part catches it.
+
+Next, the links. Jev decides how the two requests are related. You wrote "and", but that is not enough to decide. There are two possibilities. With "then", the second request reads the result of the first. With "and", both requests read the original table, as it was before either one runs. Here, "them" points to the products the first request archives, so the tool links the two requests with "then": first archive, then show.
+
+Two more examples, quickly. First, four requests: show the black variants, then raise their price by ten percent, and delete the cancelled sales, but first show every sale. Jev groups them. The price change reads the rows of the first show: that is a "then". The rest is joined by "and": they all read the original table, as one group. So "show every sale" still sees the sales before the delete.
+
+And a swap: put the cost into the price, and the price into the cost. Here Jev picks "and": both parts read the original table, so the values really swap. If the second part read the first one's result, both columns would end up equal.
+
